@@ -1,0 +1,43 @@
+body {
+    background-image: url(coffe-cup.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+h1 {
+    background: linear-gradient(to right, red, green);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.header, .inputButtonContainer {
+    display: flex;
+    justify-content: center;
+}
+.inputField {
+    padding: 20px;
+    width: 50%;
+}
+.btn {
+    padding: 30px;
+    background-color: azure;
+}
+.toDoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toDoAdded {
+    background-color: pink;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid white;
+    list-style-type: none;
+}
+.toDoCompleted {
+    background-color: aqua;
+    text-decoration: line-through;
+    font-weight: bold;
+    transition: all 1s ease;
+}
